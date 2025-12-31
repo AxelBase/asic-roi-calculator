@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>AxelBase – ASIC ROI Calculator</title>
+    <link rel="icon" href="../../AxelLab-Logo.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Simple ASIC mining ROI and break-even calculator." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    
+		<link href="../../_app/immutable/assets/0.BNWi1x82.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/9.Burj-rUS.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.CmrcOJjE.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DpXJyLV4.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DczaydhO.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/RiX3E77Z.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BAc1Yq2g.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.DuWP11S_.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/ChTgp91d.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DCxHgr27.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CPrBCYyJ.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.DVosjvPE.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DnYDuegT.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DvnDzjNM.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DSkC2U4f.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/C4zT6Kt_.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BE65dagq.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/9.oqlhgj9I.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/D4QrE0lP.js"><!--q8x3kg--><meta name="description" content="Discover how the ASIC ROI Calculator handles extreme inputs: high costs, low prices, large farms, and unprofitable conditions."/> <meta property="og:title" content="Stress Testing and Edge Cases | ASIC ROI Blog"/> <meta property="og:description" content="Discover how the ASIC ROI Calculator handles extreme inputs: high costs, low prices, large farms, and unprofitable conditions."/> <meta property="og:url" content="../../blog/posts/post6"/> <meta property="og:type" content="article"/> <meta name="twitter:card" content="summary_large_image"/><!----><title>Stress Testing and Edge Cases | ASIC ROI Blog</title>
+  </head>
+
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents"><!--[--><!--[--><!----><header class="custom-navbar"><nav class="container d-flex justify-content-between align-items-center"><div class="d-flex align-items-center gap-3"><a href="../../" aria-label="Home" class="d-flex align-items-center"><img src="../../AxelLab-Logo.ico" alt="Logo" class="navbar-brand-logo me-2"/></a> <a class="navbar-brand-text text-decoration-none" href="../../">AxelBase</a> <div class="position-relative"><button class="btn-bubbly btn-sm d-flex align-items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg> Buy me a coffee</button> <!--[!--><!--]--></div></div> <ul class="d-none d-md-flex list-unstyled gap-4 mb-0 align-items-center"><li><a class="nav-link text-decoration-none" href="../../">Home</a></li> <li><a class="nav-link text-decoration-none" href="../../#about">About</a></li> <li><a class="nav-link text-decoration-none" href="../../#how-to-use">How to use</a></li> <li><a class="nav-link text-decoration-none" href="../../#faq">FAQ</a></li> <li><a class="nav-link text-decoration-none" href="../../blog">Blog</a></li></ul></nav></header> <main><!--[--><!----><div class="container fade-in post-layout svelte-q8x3kg"><div class="breadcrumbs svelte-q8x3kg"><a href="../../blog" class="svelte-q8x3kg">Blog</a> <span>/</span> <p class="svelte-q8x3kg">Stress Testing and Edge Cases</p></div> <article class="prose svelte-q8x3kg"><h1 class="svelte-q8x3kg">Stress Testing and Edge Cases</h1> <p class="post-meta svelte-q8x3kg">Published: December 31, 2025</p> <p class="svelte-q8x3kg">The ASIC ROI Calculator is built to handle a wide range of inputs, from realistic setups to extreme scenarios. Stress testing reveals how profitability changes under adverse conditions or massive scale.</p> <p class="svelte-q8x3kg">Invalid entries trigger clear warnings, while extreme values compute correctly without errors.</p> <h2 class="svelte-q8x3kg">High Electricity Costs</h2> <p class="svelte-q8x3kg">Raising rates to $0.30–$0.50/kWh often flips profitable setups negative. This simulates regions with expensive power or penalties.</p> <p class="svelte-q8x3kg">Results show red daily profit cards and "Never" break-even, highlighting the importance of cheap energy.</p> <h3 class="svelte-q8x3kg">Low Coin Prices</h3> <ul class="svelte-q8x3kg"><li class="svelte-q8x3kg">Dropping price to $10,000–$50,000 mimics bear markets</li> <li class="svelte-q8x3kg">Revenue falls sharply while power costs remain fixed</li> <li class="svelte-q8x3kg">Most setups become unprofitable</li></ul> <h3 class="svelte-q8x3kg">Massive Network Growth</h3> <p class="svelte-q8x3kg">Increasing network hashrate to 2,000 EH/s reduces individual shares dramatically. Even efficient hardware struggles.</p> <h2 class="svelte-q8x3kg">Large-Scale Operations</h2> <p class="svelte-q8x3kg">Scaling to farm levels (e.g., 140,000 TH/s, $2.5M cost, 3.1 MW power) multiplies figures accurately. Daily profits reach thousands, with break-even scaling proportionally.</p> <p class="svelte-q8x3kg">The tool handles large numbers without overflow, showing realistic projections.</p> <h3 class="svelte-q8x3kg">Invalid Inputs</h3> <ul class="svelte-q8x3kg"><li class="svelte-q8x3kg">Zero or negative critical values (hash rate, network rate) prevent calculations</li> <li class="svelte-q8x3kg">Warning message appears instead of misleading results</li></ul> <h2 class="svelte-q8x3kg">Future-Proof Scenarios</h2> <p class="svelte-q8x3kg">Lowering block reward to 1.5625 simulates post-2028 halving. Many current setups turn unprofitable absent price growth.</p> <p class="svelte-q8x3kg">These tests help miners prepare for volatility.</p> <h2 class="svelte-q8x3kg">FAQ</h2> <details class="svelte-q8x3kg"><summary class="svelte-q8x3kg">Does the calculator crash on extremes?</summary> <p class="svelte-q8x3kg">No—all computations stay client-side and responsive.</p></details> <details class="svelte-q8x3kg"><summary class="svelte-q8x3kg">Why test unprofitable cases?</summary> <p class="svelte-q8x3kg">To identify risk thresholds before investing.</p></details> <details class="svelte-q8x3kg"><summary class="svelte-q8x3kg">Can it model future hashrate growth?</summary> <p class="svelte-q8x3kg">Yes—manually increase network hashrate for conservative estimates.</p></details> <p class="italic-note svelte-q8x3kg">Stress testing builds resilience in mining planning.</p></article></div><!----><!--]--></main> <footer class="fixed-footer"><div class="container d-flex justify-content-between align-items-center"><div class="text-muted">© AxelBase ASIC ROI Calculator – 2025</div> <div class="d-flex gap-3"><a href="../../privacy" class="text-muted text-decoration-none">Privacy</a> <a href="../../terms" class="text-muted text-decoration-none">Terms</a></div></div></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1dvri8l = {
+						base: new URL("../..", location).pathname.slice(0, -1),
+						assets: "/asic-roi-calculator"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.CmrcOJjE.js"),
+						import("../../_app/immutable/entry/app.DuWP11S_.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 9],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
