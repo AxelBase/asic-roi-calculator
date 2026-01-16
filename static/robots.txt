@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://axelbase.github.io/asic-roi-calculator/sitemap.xml
+Sitemap: https://asic-roi-calculator.vercel.app/sitemap.xml
