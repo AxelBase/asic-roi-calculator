@@ -4,6 +4,11 @@
 
   const posts = [
     {
+      href: '/alternatives',
+      title: 'Compare Top ASIC Profitability & ROI Calculators (2026 Update)',
+      description: 'Neutral comparison of leading tools like ASIC Miner Value, WhatToMine ASIC, NiceHash, CoinWarz, Minerstat, Bitmain Calculator, Hashrate Index, and offline/static options for quick, private break-even and ROI checks. Updated February 2026.'
+    },
+    {
       href: '/blog/posts/post1',
       title: 'Introduction to the ASIC ROI Calculator',
       description: 'A complete overview of this static web utility designed to help miners quickly evaluate ASIC hardware profitability.'
@@ -43,14 +48,14 @@
 
 <svelte:head>
   <title>Blog | ASIC ROI Calculator Insights</title>
-  <meta name="description" content="Articles, guides, and technical explanations for the ASIC ROI Calculator – a client-side tool for mining profitability analysis." />
+  <meta name="description" content="Articles, guides, and technical explanations for the ASIC ROI Calculator – a client-side tool for mining profitability analysis. Includes tool comparisons and 2026 updates." />
 </svelte:head>
 
 <div class="container fade-in blog-index">
   <header class="blog-header">
     <h1><i class="bi bi-journal-richtext"></i> Blog: ASIC ROI Insights</h1>
     <p class="subtitle">
-      In-depth articles and technical guides about ASIC mining profitability, calculation methods, input parameters, and practical usage of the ROI calculator.
+      In-depth articles and technical guides about ASIC mining profitability, calculation methods, input parameters, and practical usage of the ROI calculator. Explore comparisons of leading tools in 2026.
     </p>
   </header>
 
